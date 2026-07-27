@@ -1,8 +1,13 @@
 aid: huspy
 name: huspy
-description: huspy is a company surfaced as a portfolio company of balderton-capital, fifth-wall and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: huspy is a UAE-based proptech and digital mortgage brokerage platform headquartered
+  in Dubai that helps home buyers search residential property, compare mortgage rates across 20+
+  partner banks (including ADCB, ADIB, Emirates NBD, Dubai Islamic Bank, FAB, HSBC, Mashreq and RAK
+  Bank), get pre-approved online, and close financing in as little as two weeks versus the usual two
+  months. It also operates a broker portal and seller listing services (professional photography,
+  videography and portal placement). No public developer API, documentation, or /.well-known
+  discovery surface was found during enrichment; this profile remains a company stub with a probed
+  domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/huspy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +16,30 @@ x-backed-by:
 - fifth-wall
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.huspy.com/ae/images/home-hero-mobile.png
 tags:
 - Company
+- Mortgage
+- Real Estate
+- PropTech
+- FinTech
+- Lending
+- UAE
+- Dubai
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://huspy.com/
+- type: Blog
+  url: https://huspy.com/ae/blog
+- type: TermsOfService
+  url: https://huspy.com/ae/content/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://huspy.com/ae/content/privacy-policy
+- type: DomainSecurity
+  url: security/huspy-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
