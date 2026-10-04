@@ -45,7 +45,7 @@ image: https://www.huspy.com/ae/images/home-hero-mobile.png
 tags:
 - Company
 - Mortgage
-- Real-Estate
+- Real Estate
 - PropTech
 - Fintech
 - Lending
@@ -60,6 +60,7 @@ tags_raw:
 - Lending
 - UAE
 - Dubai
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
